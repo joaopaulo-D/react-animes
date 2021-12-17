@@ -1,4 +1,4 @@
-Esse projeto tem como proposito de realização de pesquisa de `Animes`, utilizando o React e Fetch ara conumir `APi` de animes
+Esse projeto tem como proposito de realizar pesquisa de seus `Animes` preferidos, utilizando o React e Fetch ara conumir `APi` de animes
 
 Espero que gostem
 
