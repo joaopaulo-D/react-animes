@@ -18,7 +18,7 @@ function App() {
       fetch(`${api}anime?filter[text]=${text}&page[limit]=15`)
       .then(response => response.json())
       .then(data => {
-        console.log(data)
+        //console.log(data)
         setData(data)
       })
     }
