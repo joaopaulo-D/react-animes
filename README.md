@@ -4,9 +4,11 @@ Espero que gostem
 
 Você deseja ter esse repositorio na sua maquina siga esses passos: 
 
-#### 1 - `git clone https://github.com/joaopaulo-D/react-animes.git`
-#### 2 - `npm install ou npm i`
-#### 3 - `npm start ou yarn start` 
+1 - `git clone https://github.com/joaopaulo-D/react-animes.git`
+<br>
+2 - `npm install ou npm i`
+<br>
+3 - `npm start ou yarn start` 
 
 # Home
 
@@ -19,4 +21,4 @@ Você deseja ter esse repositorio na sua maquina siga esses passos:
 <br>
 <br>
 
-### Projeto Desenvolvido por `João Paulo`
+Projeto Desenvolvido por `João Paulo`
