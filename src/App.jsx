@@ -4,6 +4,7 @@ import "./App.css";
 import loading from "./assets/loading.gif";
 
 import SearchInput from "./components/SearchInput";
+import InfoCard from "./components/InfoCard";
 
 const api = "https://kitsu.io/api/edge/";
 
@@ -35,7 +36,7 @@ function App() {
         value={text}
         onChange={e => setText(e)}
       />
-        
+    
       {text && !info.data && (
         <img className="loading" src={loading} alt=""/>
       )}
@@ -43,10 +44,11 @@ function App() {
       {info.data && (
         <ul className="anime-list">
           {info.data.map((anime) => (
-            <li key={anime.id}>
-              <img src={anime.attributes.posterImage.small} alt={anime.attributes.canonicalTitle} />
-              <p>{anime.attributes.canonicalTitle}</p>
-            </li>
+            <InfoCard
+              key={anime.id}
+              img={anime.attributes.posterImage.small}
+              title={anime.attributes.canonicalTitle}
+            />
           ))}
         </ul>
       )}
